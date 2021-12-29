@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+main{
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: #f2f8fb;
+    
+}
+
+h3:hover{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li:nth-of-type(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4E342E;
+}
+
+ul li:nth-of-type(2){
+    font-family: 'Montserrat', sans-serif;
+    color: #689F38;
+}
+
+ul li:nth-of-type(3){
+    font-family: 'Raleway', sans-serif;
+    color: #EF5350;
+}
+
+section p:nth-of-type(1){
+    color: #999;
+}
+
+p{
+    font-size: 26px;
+}
+
+section p:nth-last-of-type(1){
+    font-size: 12px;
+}
+
+section p:nth-of-type(even){
+    color: #0277bd;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
+button{
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 10px;
+    border: 2px solid #333;
+    color: gold;
+}
+
+button:hover{
+    font-size: 30px;
+    color: white;
+    background: darkgray;
+}
+
+button:active{
+    color: tomato;
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+
